@@ -1,0 +1,10 @@
+[package]
+name = "kshot"
+version = "0.1.0"
+edition = "2021"
+authors = ["Cupnfish"]
+description = "Windows screenshot CLI using Windows Graphics Capture"
+
+[dependencies]
+kscreenshot = "0.1"
+clap = { version = "4", features = ["derive"] }
