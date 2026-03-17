@@ -13,10 +13,11 @@ A fast Windows screenshot CLI tool using Windows Graphics Capture, built with Ru
 
 ### Pre-built Binary
 
-Download from [Releases](https://github.com/Cupnfish/kshot/releases) or use with Alma skill:
+Download from [Releases](https://github.com/Cupnfish/kshot/releases/latest):
 
 ```
-~/.config/alma/skills/windows-screenshot/bin/kshot.exe
+# Download latest release
+curl -sL https://github.com/Cupnfish/kshot/releases/latest/download/kshot.exe -o kshot.exe
 ```
 
 ### Build from Source

@@ -10,7 +10,16 @@ Take screenshots on Windows using `kshot` CLI - a Rust-based screenshot tool usi
 
 ## Installation
 
-The binary is pre-built. To rebuild from source:
+Download binary to skill bin folder:
+
+```powershell
+# Create bin folder if not exists
+mkdir -Force ~/.config/alma/skills/windows-screenshot/bin
+# Download latest release
+Invoke-WebRequest -Uri "https://github.com/Cupnfish/kshot/releases/latest/download/kshot.exe" -OutFile "$env:USERPROFILE/.config/alma/skills/windows-screenshot/bin/kshot.exe"
+```
+
+Or build from source:
 
 ```bash
 cd ~/.config/alma/skills/windows-screenshot
